@@ -7,13 +7,13 @@
 	<artifactId>android-amazon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
 	<name>android-amazon</name>
 	<url>http://maven.apache.org</url>
-
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
