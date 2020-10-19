@@ -20,7 +20,6 @@ public class BasicTest {
 
 		DesiredCapabilities dCap = new DesiredCapabilities();
 		dCap.setCapability(MobileCapabilityType.DEVICE_NAME, "SM J710F");
-		dCap.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.7.2");
 		dCap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
 		dCap.setCapability(MobileCapabilityType.APP, apk.getAbsolutePath());
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
